@@ -4,6 +4,8 @@ import Linkedin from "../../assets/icon/linkedin.svg";
 import Github from "../../assets/icon/github.svg";
 import Email from "../../assets/icon/email.png";
 import Facebook from "../../assets/icon/facebook.svg";
+import { SkillBar } from "react-skills";
+
 const AboutMe = () => {
   return (
     <div>
@@ -52,7 +54,7 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center px-5">
+        <div className=" px-5">
           <div>
             <h1 className="text-7xl">Hello!</h1>
 
@@ -64,9 +66,34 @@ const AboutMe = () => {
               ultimate goal is to become an awesome full-stack web developer who
               can make beautiful UIs and also can handle the back-end smoothly.
             </p>
-            <div className="">
-              <button className="btn btn-primary mr-5">Resume</button>
-              <button className="btn btn-secondary">Projects</button>
+          </div>
+          <div className="">
+            <div className="scale-100 hover:scale-105 ease-in duration-300">
+              <SkillBar name="HTML" level={95} color="#f77f00" />
+            </div>
+            <div className="py-1 scale-100 hover:scale-105 ease-in duration-300">
+              <SkillBar name="CSS" level={80} color="#219ebc" />
+            </div>
+            <div className="pb-1 scale-100 hover:scale-105 ease-in duration-300">
+              <SkillBar name="JavaScript" level={90} color="#ffea00" />
+            </div>
+            <div className="pb-1 scale-100 hover:scale-105 ease-in duration-300">
+              <SkillBar name="React.JS" level={85} color="#70d6ff" />
+            </div>
+            <div className="pb-1 scale-100 hover:scale-105 ease-in duration-300">
+              <SkillBar name="Bootstrap" level={75} color="#5a189a" />
+            </div>
+            <div className="pb-1 scale-100 hover:scale-105 ease-in duration-300">
+              <SkillBar name="Tailwind" level={90} color="#219ebc" />
+            </div>
+            <div className="pb-1 scale-100 hover:scale-105 ease-in duration-300">
+              <SkillBar name="Node.JS" level={65} color="#7cb518" />
+            </div>
+            <div className="pb-1 scale-100 hover:scale-105 ease-in duration-300">
+              <SkillBar name="Express.JS" level={70} color="#081c15" />
+            </div>
+            <div className="scale-100 hover:scale-105 ease-in duration-300">
+              <SkillBar name="MongoDB" level={80} color="#4c956c" />
             </div>
           </div>
         </div>
