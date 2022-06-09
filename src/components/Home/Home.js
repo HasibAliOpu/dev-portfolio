@@ -1,5 +1,6 @@
 import React from "react";
 import banner from "../../assets/banner/LinkedIn-Banner.png";
+import resume from "../../assets/resume/resume.pdf";
 
 const Home = () => {
   return (
@@ -14,16 +15,17 @@ const Home = () => {
           <div className="text-white">
             <h1 className="text-3xl lg:text-8xl font-bold">Welcome!</h1>
             <p className="py-6 lg:text-6xl font-bold">
-              My name is Hasib Ali, and I'm junior Front-end Developer
+              My name is Hasib Ali, and I'm junior Front-end Developer !
             </p>
 
             <button className="btn btn-primary">
-              <a
-                href="https://drive.google.com/file/d/1RCSz6jRhd_r_HU_CBuJElOBzkDbAgU6o/view"
-                target={"_blank"}
-                rel="noopener noreferrer"
-              >
-                Resume
+              <a href={resume} download>
+                Download Resume
+              </a>
+            </button>
+            <button className="btn btn-secondary ml-3">
+              <a href="https://www.linkedin.com/in/hasib-ali-opu-7b8886226/">
+                Hire Me
               </a>
             </button>
           </div>
