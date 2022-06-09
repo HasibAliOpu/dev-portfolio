@@ -41,7 +41,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <Link to="/" className="btn btn-ghost normal-case text-xl">
+          <Link to="/" className="btn btn-ghost normal-case lg:text-xl">
             <p className="uppercase text-info">
               Hasib Ali /{" "}
               <span

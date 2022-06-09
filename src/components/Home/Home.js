@@ -8,13 +8,13 @@ const Home = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={banner}
-            className="max-w-lg rounded-3xl shadow-2xl"
+            className="lg:max-w-lg  rounded-3xl shadow-2xl"
             alt=""
           />
           <div className="text-white">
-            <h1 className="text-8xl font-bold">Welcome!</h1>
-            <p className="py-6 text-6xl font-bold">
-              My name is Hasib Ali, and I'm Front-end Developer
+            <h1 className="text-3xl lg:text-8xl font-bold">Welcome!</h1>
+            <p className="py-6 lg:text-6xl font-bold">
+              My name is Hasib Ali, and I'm junior Front-end Developer
             </p>
 
             <button className="btn btn-primary">
