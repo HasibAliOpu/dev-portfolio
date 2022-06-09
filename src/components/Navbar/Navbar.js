@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="sticky top-0">
+    <div className="sticky top-0 z-50">
       <div className="navbar  bg-black">
         <div className="navbar-start">
           <div className="dropdown">
@@ -31,10 +31,13 @@ const Navbar = () => {
                 <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <NavLink to="/about">About</NavLink>
+                <NavLink to="/projects">Projects</NavLink>
               </li>
               <li>
-                <NavLink to="/projects">Projects</NavLink>
+                <NavLink to="/blogs">Blogs</NavLink>
+              </li>
+              <li>
+                <NavLink to="/about">About Me</NavLink>
               </li>
               <li>
                 <NavLink to="/contact">Contact</NavLink>

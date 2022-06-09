@@ -9,9 +9,9 @@ import { SkillBar } from "react-skills";
 const AboutMe = () => {
   return (
     <div className="text-white">
-      <div className="grid grid-cols-2">
-        <div className="bg-white h-screen w-8/12 ">
-          <div className="w-96 bg-base-100 shadow-2xl mt-20 ml-56">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
+        <div className="bg-white h-screen lg:w-8/12 ">
+          <div className="max-w-sm lg:w-full bg-base-100 shadow-2xl mt-20 mx-2 lg:mx-0 lg:ml-56">
             <figure>
               <div className="avatar">
                 <div className="w-1/2 mx-auto mt-5 rounded-full ring ring-green-500 ring-offset-base-100 ring-offset-2">
@@ -69,15 +69,15 @@ const AboutMe = () => {
               can make beautiful UIs and also can handle the back-end smoothly.
             </p>
           </div>
-          <div className="px-8 ">
+          <div className="lg:px-8">
             <h1 className="text-center font-bold font-mono text-xl">
               My Skills
             </h1>
             <div className="scale-100 hover:scale-105 ease-in duration-300">
-              <SkillBar name="HTML" level={95} color="#f77f00" />
+              <SkillBar name="HTML" level={99} color="#f77f00" />
             </div>
             <div className="py-1 scale-100 hover:scale-105 ease-in duration-300">
-              <SkillBar name="CSS" level={80} color="#219ebc" />
+              <SkillBar name="CSS" level={88} color="#219ebc" />
             </div>
             <div className="pb-1 scale-100 hover:scale-105 ease-in duration-300">
               <SkillBar name="JavaScript" level={90} color="#ffea00" />
@@ -92,7 +92,7 @@ const AboutMe = () => {
               <SkillBar name="Tailwind" level={90} color="#219ebc" />
             </div>
             <div className="pb-1 scale-100 hover:scale-105 ease-in duration-300">
-              <SkillBar name="Node.JS" level={65} color="#7cb518" />
+              <SkillBar name="Node.JS" level={75} color="#7cb518" />
             </div>
             <div className="pb-1 scale-100 hover:scale-105 ease-in duration-300">
               <SkillBar name="Express.JS" level={70} color="#081c15" />
