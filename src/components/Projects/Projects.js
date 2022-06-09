@@ -35,11 +35,11 @@ const images4 = [
 
 const Projects = () => {
   return (
-    <div className="my-10">
-      <h1 className="text-center text-6xl font-bold mb-10">Projects</h1>
-      <div className="grid grid-cols-2 px-10  text-white">
+    <div className="my-10 text-white">
+      <h1 className="text-center text-6xl lg:font-bold mb-10">Projects</h1>
+      <div className="grid grid-cols-1 lg:grid-cols-2 mb-10 px-7 lg:px-10 ">
         <div>
-          <h1 className="text-2xl pb-1">
+          <h1 className="text-xl lg:text-2xl pb-1">
             Auto-Motive [Parts Manufacturer(Full-stack)]
           </h1>
           <ul className="list-disc list-outside">
@@ -56,8 +56,8 @@ const Projects = () => {
             </li>
             <li> On my orders route, users can pay using a credit card.</li>
           </ul>
-          <span className="flex gap-1 my-5">
-            <button className="btn btn-primary">
+          <div className="my-5">
+            <button className="btn  btn-sm rounded-full btn-primary">
               <a
                 href="https://automotive-1d44c.web.app/"
                 target={"_blank"}
@@ -66,27 +66,27 @@ const Projects = () => {
                 visit Website
               </a>
             </button>
-            <button className="btn btn-info text-white">
+            <button className="btn btn-sm rounded-full mx-1 btn-info ">
               <a
                 href="https://github.com/HasibAliOpu/Auto-Motive"
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
-                Client code
+                Client side
               </a>
             </button>
-            <button className="btn btn-success text-white">
+            <button className="btn btn-sm rounded-full btn-success  mt-1 lg:mt-0">
               <a
                 href="https://github.com/HasibAliOpu/Auto-Motive-Server"
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
-                Server code
+                Server side
               </a>
             </button>
-          </span>
+          </div>
         </div>
-        <div className="px-20">
+        <div className="lg:px-20">
           <Swiper
             effect={"cube"}
             grabCursor={true}
@@ -108,8 +108,10 @@ const Projects = () => {
           </Swiper>
         </div>
       </div>
-      <div className="grid grid-cols-2 px-10 mt-10  text-white">
-        <div className="px-20">
+      <hr className="mx-10" />
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 px-7 lg:px-10 my-10  ">
+        <div className="pb-3 lg:pb-0 lg:px-20">
           <Swiper
             effect={"cube"}
             grabCursor={true}
@@ -130,8 +132,8 @@ const Projects = () => {
             ))}
           </Swiper>
         </div>
-        <div className="px-10">
-          <h1 className="text-2xl pb-1">
+        <div className="lg:px-10">
+          <h1 className="text-xl font-bold lg:text-2xl pb-1">
             Tech-World [Warehouse Management(Full-stack)]
           </h1>
           <ul className="list-disc list-outside">
@@ -152,8 +154,8 @@ const Projects = () => {
               route, in this route, it shows user-added items
             </li>
           </ul>
-          <span className="flex gap-1 my-5">
-            <button className="btn btn-primary">
+          <div className="my-5">
+            <button className="btn btn-sm rounded-full btn-primary">
               <a
                 href="https://automotive-1d44c.web.app/"
                 target={"_blank"}
@@ -162,30 +164,32 @@ const Projects = () => {
                 visit Website
               </a>
             </button>
-            <button className="btn btn-info text-white">
+            <button className="btn btn-sm rounded-full btn-info  mx-1">
               <a
                 href="https://tech-world-c48c2.web.app/"
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
-                Client code
+                Client side
               </a>
             </button>
-            <button className="btn btn-success text-white">
+            <button className="btn btn-sm rounded-full btn-success  mt-1 lg:mt-0">
               <a
                 href="https://github.com/HasibAliOpu/tech-world-client-side"
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
-                Server code
+                Server side
               </a>
             </button>
-          </span>
+          </div>
         </div>
       </div>
-      <div className="grid grid-cols-2 px-10 my-10 text-white">
-        <div className="px-10">
-          <h1 className="text-2xl pb-1">
+      <hr className="mx-10" />
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 px-7 lg:px-10 my-10">
+        <div className="lg:px-10">
+          <h1 className="text-xl lg:text-2xl  font-bold pb-1">
             Dr-Physiologists [Service Provider(Front-End)]
           </h1>
           <ul className="list-disc list-outside">
@@ -204,8 +208,8 @@ const Projects = () => {
               Github.
             </li>
           </ul>
-          <span className="flex gap-1 my-5">
-            <button className="btn btn-primary">
+          <div className="my-5">
+            <button className="btn mr-1 btn-sm rounded-full btn-primary">
               <a
                 href="https://dr-physiologists.web.app/"
                 target={"_blank"}
@@ -214,7 +218,7 @@ const Projects = () => {
                 visit Website
               </a>
             </button>
-            <button className="btn btn-info text-white">
+            <button className="btn btn-sm rounded-full btn-info ">
               <a
                 href="https://github.com/HasibAliOpu/Dr-Physiologists"
                 target={"_blank"}
@@ -223,9 +227,9 @@ const Projects = () => {
                 Client side
               </a>
             </button>
-          </span>
+          </div>
         </div>
-        <div className="px-20">
+        <div className="lg:px-20">
           <Swiper
             effect={"cube"}
             grabCursor={true}
@@ -247,8 +251,10 @@ const Projects = () => {
           </Swiper>
         </div>
       </div>
-      <div className="grid grid-cols-2 px-10  text-white">
-        <div className="px-20">
+      <hr className="mx-10" />
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 px-7 lg:px-10 my-10">
+        <div className="pb-3 lg:pb-0 lg:px-20">
           <Swiper
             effect={"cube"}
             grabCursor={true}
@@ -269,8 +275,8 @@ const Projects = () => {
             ))}
           </Swiper>
         </div>
-        <div className="px-10">
-          <h1 className="text-2xl pb-1">
+        <div className="lg:px-10">
+          <h1 className="text-xl lg:text-2xl font-bold pb-1">
             JBL-Charge-4 [Product Review(Front-End)]
           </h1>
           <ul className="list-disc list-outside">
@@ -289,8 +295,8 @@ const Projects = () => {
               REVENUE.
             </li>
           </ul>
-          <span className="flex gap-1 my-5">
-            <button className="btn btn-primary">
+          <div className="mt-5">
+            <button className="btn btn-sm rounded-full btn-primary mr-1">
               <a
                 href="https://jbl-charge-4.netlify.app/"
                 target={"_blank"}
@@ -299,7 +305,7 @@ const Projects = () => {
                 visit Website
               </a>
             </button>
-            <button className="btn bg-[#fca311] hover:bg-[#c07a00] text-white">
+            <button className="btn btn-sm rounded-full bg-[#fca311] hover:bg-[#c07a00] ">
               <a
                 href="https://github.com/HasibAliOpu/JBL-Charge-4"
                 target={"_blank"}
@@ -308,7 +314,7 @@ const Projects = () => {
                 Client side
               </a>
             </button>
-          </span>
+          </div>
         </div>
       </div>
     </div>
