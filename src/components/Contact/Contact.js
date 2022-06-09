@@ -32,14 +32,12 @@ const Contact = () => {
           Get in touch
         </h2>
         <p className="mt-3 text-center text-gray-600 dark:text-gray-400">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          If you want to contact me feel free to message any time, i'm always be
+          there!!
         </p>
 
         <div className="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 md:grid-cols-3">
-          <a
-            href="/"
-            className="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-200 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500"
-          >
+          <a className="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-200 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500">
             <svg
               className="w-5 h-5"
               xmlns="http://www.w3.org/2000/svg"
@@ -56,10 +54,7 @@ const Contact = () => {
             <span className="mt-2">Rajshahi, Bangladesh</span>
           </a>
 
-          <a
-            href="/"
-            className="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-200 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500"
-          >
+          <a className="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-200 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500">
             <svg
               className="w-5 h-5"
               xmlns="http://www.w3.org/2000/svg"
@@ -72,10 +67,7 @@ const Contact = () => {
             <span className="mt-2">+8801303082261</span>
           </a>
 
-          <a
-            href="/"
-            className="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-200 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500"
-          >
+          <a className="flex flex-col items-center px-4 py-3 text-gray-700 transition-colors duration-200 transform rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500">
             <svg
               className="w-5 h-5"
               xmlns="http://www.w3.org/2000/svg"
