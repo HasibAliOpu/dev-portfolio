@@ -100,8 +100,8 @@ const Projects = () => {
             modules={[EffectCube, Pagination]}
             className="mySwiper"
           >
-            {images1.map((img) => (
-              <SwiperSlide>
+            {images1.map((img, i) => (
+              <SwiperSlide key={i}>
                 <img src={img} alt="" />
               </SwiperSlide>
             ))}
@@ -123,8 +123,8 @@ const Projects = () => {
             modules={[EffectCube, Pagination]}
             className="mySwiper"
           >
-            {images2.map((img) => (
-              <SwiperSlide>
+            {images2.map((img, i) => (
+              <SwiperSlide key={i}>
                 <img src={img} alt="" />
               </SwiperSlide>
             ))}
@@ -239,8 +239,8 @@ const Projects = () => {
             modules={[EffectCube, Pagination]}
             className="mySwiper"
           >
-            {images3.map((img) => (
-              <SwiperSlide>
+            {images3.map((img, i) => (
+              <SwiperSlide key={i}>
                 <img src={img} alt="" />
               </SwiperSlide>
             ))}
@@ -262,8 +262,8 @@ const Projects = () => {
             modules={[EffectCube, Pagination]}
             className="mySwiper"
           >
-            {images4.map((img) => (
-              <SwiperSlide>
+            {images4.map((img, i) => (
+              <SwiperSlide key={i}>
                 <img src={img} alt="" />
               </SwiperSlide>
             ))}
