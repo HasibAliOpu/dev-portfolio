@@ -8,7 +8,7 @@ import { SkillBar } from "react-skills";
 
 const AboutMe = () => {
   return (
-    <div>
+    <div className="text-white">
       <div className="grid grid-cols-2">
         <div className="bg-white h-screen w-8/12 ">
           <div class="w-96 bg-base-100 shadow-2xl mt-20 ml-56">
@@ -54,11 +54,11 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
-        <div className=" px-5">
+        <div className="px-5 py-10">
           <div>
             <h1 className="text-7xl">Hello!</h1>
 
-            <p className="text-2xl my-4">
+            <p className="text font-mono my-4">
               I am a front-end web developer. I love to use my creativity and
               make something new. That's why I love to work with React.js and
               TailwindCSS. Over the last 6 month, I gather knowledge in various
@@ -67,7 +67,10 @@ const AboutMe = () => {
               can make beautiful UIs and also can handle the back-end smoothly.
             </p>
           </div>
-          <div className="">
+          <div className="px-8 ">
+            <h1 className="text-center font-bold font-mono text-xl">
+              My Skills
+            </h1>
             <div className="scale-100 hover:scale-105 ease-in duration-300">
               <SkillBar name="HTML" level={95} color="#f77f00" />
             </div>

@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <div class="navbar bg-base-100">
+      <div class="navbar bg-base-100 fixed top-0">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -27,71 +27,46 @@ const Navbar = () => {
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Item 1</a>
-              </li>
-              <li tabindex="0">
-                <a class="justify-between">
-                  Parent
-                  <svg
-                    class="fill-current"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                  </svg>
-                </a>
-                <ul class="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                <a href="/#home">Home</a>
               </li>
               <li>
-                <a>Item 3</a>
+                <a href="/">About</a>
+              </li>
+              <li>
+                <a href="/">Projects</a>
+              </li>
+              <li>
+                <a href="/">Contact</a>
               </li>
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <a href="#home" class="btn btn-ghost normal-case text-xl">
+            <p className="uppercase text-info">
+              Hasib Ali /{" "}
+              <span
+                style={{ fontFamily: "'Roboto Mono', monospace" }}
+                className="text-green-200 text-sm lowercase font-normal"
+              >
+                Front-end Developer
+              </span>
+            </p>
+          </a>
         </div>
-        <div class="navbar-center hidden lg:flex">
+        <div class="navbar-end hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
             <li>
-              <a>Item 1</a>
-            </li>
-            <li tabindex="0">
-              <a>
-                Parent
-                <svg
-                  class="fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                </svg>
-              </a>
-              <ul class="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
+              <a href="/#home">Home</a>
             </li>
             <li>
-              <a>Item 3</a>
+              <a href="/">About</a>
+            </li>
+            <li>
+              <a href="/">Projects</a>
+            </li>
+            <li>
+              <a href="/">Contact</a>
             </li>
           </ul>
-        </div>
-        <div class="navbar-end">
-          <a class="btn">Get started</a>
         </div>
       </div>
     </div>
