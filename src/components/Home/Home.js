@@ -13,18 +13,24 @@ const Home = () => {
             alt=""
           />
           <div className="text-white">
-            <h1 className="text-3xl lg:text-8xl font-bold">Welcome!</h1>
-            <p className="py-6 lg:text-6xl font-bold">
+            <h1 className="text-3xl lg:text-8xl font-bold text-[#fca311]">
+              Welcome!
+            </h1>
+            <p className="py-6 lg:text-6xl text-[#edf2f4] font-bold">
               My name is Hasib Ali, and I'm junior Front-end Developer !
             </p>
 
-            <button className="btn btn-primary">
+            <button className="btn bg-[#fe7f2d] hover:bg-[#f06000] text-white scale-100 hover:scale-105 ease-in duration-300">
               <a href={resume} download>
                 Download Resume
               </a>
             </button>
-            <button className="btn btn-secondary ml-3">
-              <a href="https://www.linkedin.com/in/hasib-ali-opu-7b8886226/">
+            <button className="btn bg-[#4cc9f0] hover:bg-[#1cc0f1] scale-100 hover:scale-105 ease-in duration-300 text-white ml-3">
+              <a
+                href="https://www.linkedin.com/in/hasib-ali-opu-7b8886226/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Hire Me
               </a>
             </button>
