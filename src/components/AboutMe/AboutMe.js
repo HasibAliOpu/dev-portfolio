@@ -2,7 +2,7 @@ import React from "react";
 import Portfolio from "../../assets/images/portfolio.jpg";
 import Linkedin from "../../assets/icon/linkedin.svg";
 import Github from "../../assets/icon/github.svg";
-import Email from "../../assets/icon/email.png";
+import Email from "../../assets/icon/mail.svg";
 import Facebook from "../../assets/icon/facebook.svg";
 import { SkillBar } from "react-skills";
 
@@ -33,7 +33,7 @@ const AboutMe = () => {
             <div className="bg-white h-10">
               <span className="flex justify-center gap-6 mt-1">
                 <img
-                  className="scale-100 hover:scale-150 ease-in duration-500"
+                  className="scale-100 hover:scale-150 ease-in duration-500 w-7"
                   src={Linkedin}
                   alt=""
                 />
