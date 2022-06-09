@@ -4,7 +4,7 @@ import banner from "../../assets/banner/LinkedIn-Banner.png";
 const Home = () => {
   return (
     <div>
-      <div class="hero min-h-screen bg-base-200">
+      <div class="hero min-h-screen">
         <div class="hero-content flex-col lg:flex-row-reverse">
           <img src={banner} class="max-w-lg rounded-3xl shadow-2xl" alt="" />
           <div>
