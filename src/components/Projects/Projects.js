@@ -63,12 +63,12 @@ const Projects = () => {
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
-                Website
+                visit Website
               </a>
             </button>
             <button className="btn btn-info text-white">
               <a
-                href="https://automotive-1d44c.web.app/"
+                href="https://github.com/HasibAliOpu/Auto-Motive"
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
@@ -77,7 +77,7 @@ const Projects = () => {
             </button>
             <button className="btn btn-success text-white">
               <a
-                href="https://automotive-1d44c.web.app/"
+                href="https://github.com/HasibAliOpu/Auto-Motive-Server"
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
@@ -152,6 +152,35 @@ const Projects = () => {
               route, in this route, it shows user-added items
             </li>
           </ul>
+          <span className="flex gap-1 my-5">
+            <button className="btn btn-primary">
+              <a
+                href="https://automotive-1d44c.web.app/"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                visit Website
+              </a>
+            </button>
+            <button className="btn btn-info text-white">
+              <a
+                href="https://tech-world-c48c2.web.app/"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                Client code
+              </a>
+            </button>
+            <button className="btn btn-success text-white">
+              <a
+                href="https://github.com/HasibAliOpu/tech-world-client-side"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                Server code
+              </a>
+            </button>
+          </span>
         </div>
       </div>
       <div className="grid grid-cols-2 px-10 my-10 text-white">
@@ -175,6 +204,26 @@ const Projects = () => {
               Github.
             </li>
           </ul>
+          <span className="flex gap-1 my-5">
+            <button className="btn btn-primary">
+              <a
+                href="https://dr-physiologists.web.app/"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                visit Website
+              </a>
+            </button>
+            <button className="btn btn-info text-white">
+              <a
+                href="https://github.com/HasibAliOpu/Dr-Physiologists"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                Client side
+              </a>
+            </button>
+          </span>
         </div>
         <div className="px-20">
           <Swiper
@@ -240,6 +289,26 @@ const Projects = () => {
               REVENUE.
             </li>
           </ul>
+          <span className="flex gap-1 my-5">
+            <button className="btn btn-primary">
+              <a
+                href="https://jbl-charge-4.netlify.app/"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                visit Website
+              </a>
+            </button>
+            <button className="btn bg-[#fca311] hover:bg-[#c07a00] text-white">
+              <a
+                href="https://github.com/HasibAliOpu/JBL-Charge-4"
+                target={"_blank"}
+                rel="noopener noreferrer"
+              >
+                Client side
+              </a>
+            </button>
+          </span>
         </div>
       </div>
     </div>
