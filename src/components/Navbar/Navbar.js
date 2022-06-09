@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -27,20 +28,20 @@ const Navbar = () => {
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a href="/#home">Home</a>
+                <NavLink to="/#home">Home</NavLink>
               </li>
               <li>
-                <a href="/">About</a>
+                <NavLink to="/">About</NavLink>
               </li>
               <li>
-                <a href="/">Projects</a>
+                <NavLink to="/">Projects</NavLink>
               </li>
               <li>
-                <a href="/">Contact</a>
+                <NavLink to="/">Contact</NavLink>
               </li>
             </ul>
           </div>
-          <a href="#home" class="btn btn-ghost normal-case text-xl">
+          <Link to="/" class="btn btn-ghost normal-case text-xl">
             <p className="uppercase text-info">
               Hasib Ali /{" "}
               <span
@@ -50,21 +51,21 @@ const Navbar = () => {
                 Front-end Developer
               </span>
             </p>
-          </a>
+          </Link>
         </div>
         <div class="navbar-end hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
             <li>
-              <a href="/#home">Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <a href="/">About</a>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li>
-              <a href="/">Projects</a>
+              <NavLink to="/projects">Projects</NavLink>
             </li>
             <li>
-              <a href="/">Contact</a>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>
