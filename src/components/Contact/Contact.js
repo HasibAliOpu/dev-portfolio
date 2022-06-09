@@ -1,6 +1,26 @@
 import React from "react";
-
+import emailjs from "emailjs-com";
 const Contact = () => {
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_3rab1rq",
+        "template_ob7w2fn",
+        e.target,
+        "1a4Vo2nzaQcfacsg4"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
   return (
     <div className="my-10">
       <section class="w-full max-w-2xl px-6 py-4 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
@@ -29,7 +49,7 @@ const Contact = () => {
               />
             </svg>
 
-            <span class="mt-2">121 Street, NY</span>
+            <span class="mt-2">Rajshahi, Bangladesh</span>
           </a>
 
           <a
@@ -45,7 +65,7 @@ const Contact = () => {
               <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
             </svg>
 
-            <span class="mt-2">+2499999666600</span>
+            <span class="mt-2">+8801303082261</span>
           </a>
 
           <a
@@ -62,48 +82,57 @@ const Contact = () => {
               <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
             </svg>
 
-            <span class="mt-2">example@example.com</span>
+            <span class="mt-2">hasib.dev75@gmail.com</span>
           </a>
         </div>
 
-        <div class="mt-6 ">
-          <div class="items-center -mx-2 md:flex">
-            <div class="w-full mx-2">
-              <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">
-                Name
-              </label>
+        <div class="mt-6">
+          <form onSubmit={sendEmail}>
+            <div class="items-center -mx-2 md:flex">
+              <div class="w-full mx-2">
+                <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">
+                  Name
+                </label>
 
-              <input
-                class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
-                type="text"
-              />
+                <input
+                  class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                  type="text"
+                  name="name"
+                />
+              </div>
+
+              <div class="w-full mx-2 mt-4 md:mt-0">
+                <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">
+                  E-mail
+                </label>
+
+                <input
+                  class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                  type="email"
+                  name="email"
+                />
+              </div>
             </div>
 
-            <div class="w-full mx-2 mt-4 md:mt-0">
+            <div class="w-full mt-4">
               <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">
-                E-mail
+                Message
               </label>
 
-              <input
-                class="block w-full px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40"
-                type="email"
-              />
+              <textarea
+                class="block w-full h-40 px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40"
+                name="message"
+              ></textarea>
             </div>
-          </div>
 
-          <div class="w-full mt-4">
-            <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200">
-              Message
-            </label>
-
-            <textarea class="block w-full h-40 px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40"></textarea>
-          </div>
-
-          <div class="flex justify-center mt-6">
-            <button class="px-4 py-2 text-white transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600">
-              Send Message
-            </button>
-          </div>
+            <div class="flex justify-center mt-6">
+              <input
+                type="submit"
+                value="Send Message"
+                class="px-4 py-2 text-white transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600"
+              ></input>
+            </div>
+          </form>
         </div>
       </section>
     </div>
