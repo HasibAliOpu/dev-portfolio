@@ -75,7 +75,7 @@ const AboutMe = () => {
         </div>
         <div className="px-5 py-10">
           <div>
-            <h1 className="text-7xl">Hello!</h1>
+            <h1 className="text-7xl text-primary">Hello!</h1>
 
             <p className="text font-mono my-4">
               I am a junior front-end web developer. I love to use my creativity
@@ -88,8 +88,10 @@ const AboutMe = () => {
             </p>
           </div>
           <div className="lg:px-8">
-            <h1 className="text-center font-bold font-mono text-xl">
-              My Skills
+            <h1 className="text-center text-info font-bold text-2xl mb-3">
+              <span className="border-b-2 px-4 pb-0.5 border-teal-300">
+                My Skills
+              </span>
             </h1>
             <div className="scale-100 hover:scale-105 ease-in duration-300">
               <SkillBar name="HTML" level={99} color="#f77f00" />
