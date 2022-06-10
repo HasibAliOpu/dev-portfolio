@@ -9,14 +9,14 @@ const Home = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={banner}
-            className="lg:max-w-lg  rounded-3xl shadow-2xl"
+            className=" lg:max-w-lg xl:max-w-xl rounded-3xl shadow-2xl"
             alt=""
           />
           <div className="text-white">
-            <h1 className="text-3xl lg:text-8xl font-bold text-[#fca311]">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-[#fca311]">
               Welcome!
             </h1>
-            <p className="py-6 lg:text-6xl text-[#edf2f4] font-bold">
+            <p className="py-6 md:text-2xl lg:text-4xl xl:text-5xl text-[#edf2f4] font-bold">
               My name is Hasib Ali, and I'm junior Front-end Developer !
             </p>
 

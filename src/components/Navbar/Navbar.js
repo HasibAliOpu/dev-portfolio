@@ -49,7 +49,7 @@ const Navbar = () => {
               Hasib Ali /{" "}
               <span
                 style={{ fontFamily: "'Roboto Mono', monospace" }}
-                className="text-green-200 text-sm lowercase font-normal"
+                className="text-green-200 text-xs lg:text-sm lowercase font-normal"
               >
                 Front-end Developer
               </span>

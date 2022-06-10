@@ -10,8 +10,8 @@ const AboutMe = () => {
   return (
     <div className="text-white">
       <div className="grid grid-cols-1 lg:grid-cols-2">
-        <div className="bg-white h-screen lg:w-8/12 ">
-          <div className="max-w-sm lg:w-full bg-base-100 shadow-2xl mt-20 mx-2 lg:mx-0 lg:ml-56">
+        <div className="bg-orange-400 h-full lg:w-8/12 ">
+          <div className="max-w-sm lg:w-full bg-[#023047] rounded-md shadow-2xl my-10 mx-4 md:mx-auto lg:mx-0 lg:ml-40 xl:ml-56 lg:mt-36">
             <figure>
               <div className="avatar">
                 <div className="w-1/2 mx-auto mt-5 rounded-full ring ring-green-500 ring-offset-base-100 ring-offset-2">
@@ -23,35 +23,52 @@ const AboutMe = () => {
               <h2 className="text-3xl font-bold font-mono uppercase">
                 Hasib Ali
               </h2>
-              <p
-                style={{ fontFamily: "'Roboto', sans-serif" }}
-                className="uppercase"
-              >
-                front-end Developer
+              <p style={{ fontFamily: "monospace" }} className="uppercase">
+                junior front-end Developer
               </p>
             </div>
-            <div className="bg-white h-10">
-              <span className="flex justify-center gap-6 mt-1">
-                <img
-                  className="scale-100 hover:scale-150 ease-in duration-500 w-7"
-                  src={Linkedin}
-                  alt=""
-                />
-                <img
-                  className="scale-100 hover:scale-150 ease-in duration-500"
-                  src={Github}
-                  alt=""
-                />
-                <img
-                  className="scale-100 hover:scale-150 ease-in duration-500"
-                  src={Facebook}
-                  alt=""
-                />
-                <img
-                  className="scale-100 hover:scale-150 ease-in duration-500"
-                  src={Email}
-                  alt=""
-                />
+            <div className="bg-white h-10 rounded-bl-md rounded-br-md">
+              <span className="flex justify-center items-center gap-6 py-1">
+                <a
+                  href="https://www.linkedin.com/in/hasib-ali-opu-7b8886226/"
+                  target={"_blank"}
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="scale-100 hover:scale-125 ease-in duration-300 w-7"
+                    src={Linkedin}
+                    alt="linkedin"
+                  />
+                </a>
+                <a
+                  href="https://github.com/HasibAliOpu"
+                  target={"_blank"}
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="scale-100 hover:scale-125 ease-in duration-300 w-7"
+                    src={Github}
+                    alt="github"
+                  />
+                </a>
+                <a
+                  href="https://www.facebook.com/tonmoy.opu.77"
+                  target={"_blank"}
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="scale-100 hover:scale-125 ease-in duration-300 w-7"
+                    src={Facebook}
+                    alt="facebook"
+                  />
+                </a>
+                <a href="mailto:hasib.dev75@gmail.com">
+                  <img
+                    className="scale-100 hover:scale-125 ease-in duration-300 w-7"
+                    src={Email}
+                    alt="mail"
+                  />
+                </a>
               </span>
             </div>
           </div>
@@ -61,12 +78,13 @@ const AboutMe = () => {
             <h1 className="text-7xl">Hello!</h1>
 
             <p className="text font-mono my-4">
-              I am a front-end web developer. I love to use my creativity and
-              make something new. That's why I love to work with React.js and
-              TailwindCSS. Over the last 6 month, I gather knowledge in various
-              parts of web development through the Programming Hero course. My
-              ultimate goal is to become an awesome full-stack web developer who
-              can make beautiful UIs and also can handle the back-end smoothly.
+              I am a junior front-end web developer. I love to use my creativity
+              and make something new. That's why I love to work with React.js
+              and TailwindCSS. Over the last 6 month, I gather knowledge in
+              various parts of web development through the Programming Hero
+              course. My ultimate goal is to become an awesome full-stack web
+              developer who can make beautiful UIs and also can handle the
+              back-end smoothly.
             </p>
           </div>
           <div className="lg:px-8">
