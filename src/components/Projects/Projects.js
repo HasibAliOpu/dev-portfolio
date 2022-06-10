@@ -43,7 +43,17 @@ const Projects = () => {
   return (
     <div className="my-10 text-white ">
       <h1 className="text-center text-6xl lg:font-bold mb-10">Projects</h1>
-      <div className="grid grid-cols-1 lg:grid-cols-2 mb-10 px-7 lg:px-10 ">
+      <div
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        className="grid grid-cols-1 lg:grid-cols-2 mb-10 px-7 lg:px-10 "
+      >
         <div>
           <h1 className="text-xl lg:text-2xl pb-1">
             Auto-Motive [Parts Manufacturer(Full-stack)]
@@ -146,7 +156,17 @@ const Projects = () => {
       </div>
       <hr className="mx-10" />
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 px-7 lg:px-10 my-10  ">
+      <div
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+        className="grid grid-cols-1 lg:grid-cols-2 px-7 lg:px-10 my-10  "
+      >
         <div className="pb-3 lg:pb-0 lg:px-20">
           <Swiper
             effect={"cube"}
@@ -273,7 +293,14 @@ const Projects = () => {
       </div>
       <hr className="mx-10" />
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 px-7 lg:px-10 my-10">
+      <div
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        className="grid grid-cols-1 lg:grid-cols-2 px-7 lg:px-10 my-10"
+      >
         <div className="lg:px-10">
           <h1 className="text-xl lg:text-2xl  font-bold pb-1">
             Dr-Physiologists [Service Provider(Front-End)]
@@ -365,7 +392,14 @@ const Projects = () => {
       </div>
       <hr className="mx-10" />
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 px-7 lg:px-10 my-10">
+      <div
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        className="grid grid-cols-1 lg:grid-cols-2 px-7 lg:px-10 my-10"
+      >
         <div className="pb-3 lg:pb-0 lg:px-20">
           <Swiper
             effect={"cube"}
@@ -450,7 +484,14 @@ const Projects = () => {
       </div>
       <hr className="mx-10" />
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 px-7 lg:px-10 my-10">
+      <div
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        className="grid grid-cols-1 lg:grid-cols-2 px-7 lg:px-10 my-10"
+      >
         <div className="lg:px-10">
           <h1 className="text-xl lg:text-2xl font-bold pb-1">
             The Wedding Centre [Convention center(single page)]

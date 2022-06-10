@@ -6,7 +6,14 @@ const Home = () => {
   return (
     <div>
       <div className="hero min-h-screen">
-        <div className="hero-content flex-col lg:flex-row-reverse">
+        <div
+          data-aos="zoom-in-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="hero-content flex-col lg:flex-row-reverse"
+        >
           <img
             src={banner}
             className=" lg:max-w-lg xl:max-w-xl rounded-3xl shadow-2xl"
