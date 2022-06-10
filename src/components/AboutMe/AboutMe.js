@@ -15,7 +15,7 @@ const AboutMe = () => {
             data-aos="flip-left"
             data-aos-offset="200"
             data-aos-delay="50"
-            data-aos-duration="2000"
+            data-aos-duration="1500"
             data-aos-easing="ease-in-out"
             className="max-w-sm lg:w-full bg-[#023047] rounded-md shadow-2xl my-10 mx-4 md:mx-auto lg:mx-0 lg:ml-40 xl:ml-56 lg:mt-36"
           >

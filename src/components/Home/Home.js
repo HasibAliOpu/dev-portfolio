@@ -27,12 +27,12 @@ const Home = () => {
               My name is Hasib Ali, and I'm junior Front-end Developer !
             </p>
 
-            <button className="btn bg-[#fe7f2d] hover:bg-[#f06000] text-white scale-100 hover:scale-105 ease-in duration-300">
+            <button className="btn bg-gradient-to-r from-primary to-error  hover:bg-gradient-to-r hover:from-rose-400 hover:to-orange-400 text-white scale-100 hover:scale-105 ease-in duration-300">
               <a href={resume} download>
                 Download Resume
               </a>
             </button>
-            <button className="btn bg-[#4cc9f0] hover:bg-[#1cc0f1] scale-100 hover:scale-105 ease-in duration-300 text-white ml-3">
+            <button className="btn bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-r hover:from-blue-400 hover:to-cyan-400 scale-100 hover:scale-110 ease-in duration-300 text-white ml-3">
               <a
                 href="https://www.linkedin.com/in/hasib-ali-opu-7b8886226/"
                 target="_blank"
