@@ -42,7 +42,14 @@ const images5 = [
 const Projects = () => {
   return (
     <div className="my-10 text-white ">
-      <h1 className="text-center text-6xl lg:font-bold mb-10">Projects</h1>
+      <h1 className="text-center text-6xl uppercase lg:font-bold mb-10">
+        <span className="border-b-4 border-primary hover:border-white hover:text-primary pb-1">
+          Proj
+        </span>
+        <span className="border-b-4 text-primary  hover:border-primary hover:text-white pb-1">
+          ects
+        </span>
+      </h1>
       <div
         data-aos="fade-up"
         data-aos-offset="200"
@@ -55,7 +62,7 @@ const Projects = () => {
         className="grid grid-cols-1 lg:grid-cols-2 mb-10 px-7 lg:px-10 "
       >
         <div>
-          <h1 className="text-xl lg:text-2xl pb-1">
+          <h1 className="text-xl text-info font-bold lg:text-2xl pb-1">
             Auto-Motive [Parts Manufacturer(Full-stack)]
           </h1>
           <ul className="list-disc list-outside">
@@ -103,7 +110,7 @@ const Projects = () => {
             Cors, Dotenv, jsonwebtoken, MongoDB.
           </h1>
           <div className="my-5">
-            <button className="btn  btn-sm rounded-full btn-primary">
+            <button className="btn  btn-sm rounded-full text-white btn-primary">
               <a
                 href="https://automotive-1d44c.web.app/"
                 target={"_blank"}
@@ -112,7 +119,7 @@ const Projects = () => {
                 visit Website
               </a>
             </button>
-            <button className="btn btn-sm rounded-full mx-1 btn-info ">
+            <button className="btn btn-sm rounded-full text-white mx-1 bg-info hover:bg-sky-600">
               <a
                 href="https://github.com/HasibAliOpu/Auto-Motive"
                 target={"_blank"}
@@ -121,7 +128,7 @@ const Projects = () => {
                 Client side
               </a>
             </button>
-            <button className="btn btn-sm rounded-full btn-success  mt-1 lg:mt-0">
+            <button className="btn btn-sm rounded-full text-white bg-success hover:bg-green-700 mt-1 lg:mt-0">
               <a
                 href="https://github.com/HasibAliOpu/Auto-Motive-Server"
                 target={"_blank"}
@@ -189,7 +196,7 @@ const Projects = () => {
           </Swiper>
         </div>
         <div className="lg:px-10">
-          <h1 className="text-xl font-bold lg:text-2xl pb-1">
+          <h1 className="text-xl text-info font-bold lg:text-2xl pb-1">
             Tech-World [Warehouse Management(Full-stack)]
           </h1>
           <ul className="list-disc list-outside">
@@ -261,16 +268,16 @@ const Projects = () => {
             Cors, Dotenv, jsonwebtoken, MongoDB.
           </h1>
           <div className="my-5">
-            <button className="btn btn-sm rounded-full btn-primary">
+            <button className="btn btn-sm rounded-full text-white btn-primary">
               <a
-                href="https://automotive-1d44c.web.app/"
+                href="https://tech-world-c48c2.web.app/"
                 target={"_blank"}
                 rel="noopener noreferrer"
               >
                 visit Website
               </a>
             </button>
-            <button className="btn btn-sm rounded-full btn-info  mx-1">
+            <button className="btn btn-sm rounded-full text-white bg-info hover:bg-sky-600  mx-1">
               <a
                 href="https://github.com/HasibAliOpu/tech-world-client-side"
                 target={"_blank"}
@@ -279,7 +286,7 @@ const Projects = () => {
                 Client side
               </a>
             </button>
-            <button className="btn btn-sm rounded-full btn-success  mt-1 lg:mt-0">
+            <button className="btn btn-sm rounded-full text-white bg-success hover:bg-green-600  mt-1 lg:mt-0">
               <a
                 href="https://github.com/HasibAliOpu/tech-world-server-side"
                 target={"_blank"}
@@ -302,7 +309,7 @@ const Projects = () => {
         className="grid grid-cols-1 lg:grid-cols-2 px-7 lg:px-10 my-10"
       >
         <div className="lg:px-10">
-          <h1 className="text-xl lg:text-2xl  font-bold pb-1">
+          <h1 className="text-xl text-info lg:text-2xl  font-bold pb-1">
             Dr-Physiologists [Service Provider(Front-End)]
           </h1>
           <ul className="list-disc list-outside">
@@ -348,7 +355,7 @@ const Projects = () => {
             React-Toastify, FontAwesome.
           </h1>
           <div className="my-5">
-            <button className="btn mr-1 btn-sm rounded-full bg-blue-600 text-blue-100">
+            <button className="btn mr-1 btn-sm rounded-full bg-blue-500 hover:bg-blue-700 text-blue-100">
               <a
                 href="https://dr-physiologists.web.app/"
                 target={"_blank"}
@@ -357,7 +364,7 @@ const Projects = () => {
                 visit Website
               </a>
             </button>
-            <button className="btn btn-sm rounded-full bg-purple-600  text-purple-100">
+            <button className="btn btn-sm rounded-full bg-purple-600 hover:bg-purple-800  text-purple-100">
               <a
                 href="https://github.com/HasibAliOpu/Dr-Physiologists"
                 target={"_blank"}
@@ -422,7 +429,7 @@ const Projects = () => {
           </Swiper>
         </div>
         <div className="lg:px-10">
-          <h1 className="text-xl lg:text-2xl font-bold pb-1">
+          <h1 className="text-xl text-info lg:text-2xl font-bold pb-1">
             JBL-Charge-4 [Product Review(Front-End)]
           </h1>
           <ul className="list-disc list-outside">
@@ -461,7 +468,7 @@ const Projects = () => {
             Link,Recharts.js, TailwindCSS, Heroicons.
           </h1>
           <div className="mt-5">
-            <button className="btn btn-sm rounded-full btn-info text-cyan-50 mr-1">
+            <button className="btn btn-sm rounded-full bg-info hover:bg-sky-600 text-cyan-50 mr-1">
               <a
                 href="https://jbl-charge-4.netlify.app/"
                 target={"_blank"}
@@ -493,7 +500,7 @@ const Projects = () => {
         className="grid grid-cols-1 lg:grid-cols-2 px-7 lg:px-10 my-10"
       >
         <div className="lg:px-10">
-          <h1 className="text-xl lg:text-2xl font-bold pb-1">
+          <h1 className="text-xl text-info lg:text-2xl font-bold pb-1">
             The Wedding Centre [Convention center(single page)]
           </h1>
           <ul className="list-disc list-outside">
@@ -527,7 +534,7 @@ const Projects = () => {
                 visit Website
               </a>
             </button>
-            <button className="btn btn-sm rounded-full text-black bg-[#1fe287] hover:bg-[#1eb86b] ">
+            <button className="btn btn-sm rounded-full text-white bg-[#1fe287] hover:bg-[#1eb86b] ">
               <a
                 href="https://github.com/HasibAliOpu/convention-center"
                 target={"_blank"}

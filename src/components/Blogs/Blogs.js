@@ -3,11 +3,9 @@ import React from "react";
 const Blogs = () => {
   return (
     <div>
-      <img
-        className="w-full"
-        src="https://ak.picdn.net/shutterstock/videos/1054321961/thumb/1.jpg"
-        alt=""
-      />
+      <h1 className="flex justify-center items-center italic text-4xl md:text-7xl lg:text-8xl xl:text-9xl h-screen">
+        Coming Soon...
+      </h1>
     </div>
   );
 };

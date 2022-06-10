@@ -43,8 +43,8 @@ const Contact = () => {
       style={{ fontFamily: "cursive" }}
       className="my-10 mx-5 lg:mx-0 text-white"
     >
-      <section className="w-full max-w-2xl px-6 py-4 mx-auto bg-violet-700 rounded-md shadow-md ">
-        <h2 className="text-3xl font-semibold text-center ">Get in touch</h2>
+      <section className="w-full max-w-2xl px-6 py-4 mx-auto bg-info rounded-md shadow-md ">
+        <h2 className="text-3xl font-semibold text-center">Get in touch</h2>
         <p className="mt-3 text-center">
           HELLO!! Feel free to communicate with me for any enquiry,
           collaboration or jobs. I will be more than glad to hear from you.
@@ -54,7 +54,7 @@ const Contact = () => {
         <div className="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 md:grid-cols-3">
           <Link
             to="/contact"
-            className="flex flex-col items-center px-4 py-3 text-gray-300 transition-colors duration-200 transform rounded-md hover:bg-[#bb3358]"
+            className="flex flex-col items-center px-4 py-3 text-white transition-colors duration-200 transform rounded-md hover:bg-[#bb3358]"
           >
             <img src={Location} className="w-10" alt="location" />
             <span className="mt-2">Rajshahi, Bangladesh</span>
@@ -62,7 +62,7 @@ const Contact = () => {
 
           <Link
             to="/contact"
-            className="flex flex-col items-center px-4 py-3 text-gray-200 transition-colors duration-200 transform rounded-md  hover:bg-green-400 "
+            className="flex flex-col items-center px-4 py-3 text-white transition-colors duration-200 transform rounded-md  hover:bg-green-400 "
           >
             <img src={Phone} alt="phone" />
 
@@ -71,7 +71,7 @@ const Contact = () => {
 
           <a
             href="mailto:hasib.dev75@gmail.com"
-            className="flex flex-col items-center px-4 py-3 text-gray-200 transition-colors duration-200 transform rounded-md hover:bg-blue-500"
+            className="flex flex-col items-center px-4 py-3 text-white transition-colors duration-200 transform rounded-md hover:bg-blue-500"
           >
             <img src={Email} className="w-10" alt="email" />
 
@@ -116,7 +116,7 @@ const Contact = () => {
               <input
                 type="submit"
                 value="Send Message"
-                className="px-4 py-2 text-white text-xl transition-colors duration-200 transform bg-primary rounded-md hover:bg-yellow-600 focus:outline-none focus:bg-yellow-600"
+                className="px-4 py-2 text-white text-xl  bg-gradient-to-r from-purple-500 to-pink-500 rounded-md  hover:from-pink-500 hover:to-purple-500 hover:scale-105 ease-in-out duration-500"
               ></input>
             </div>
           </form>
