@@ -11,7 +11,14 @@ const AboutMe = () => {
     <div className="text-white">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="bg-orange-400 h-full lg:w-8/12 ">
-          <div className="max-w-sm lg:w-full bg-[#023047] rounded-md shadow-2xl my-10 mx-4 md:mx-auto lg:mx-0 lg:ml-40 xl:ml-56 lg:mt-36">
+          <div
+            data-aos="flip-left"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="2000"
+            data-aos-easing="ease-in-out"
+            className="max-w-sm lg:w-full bg-[#023047] rounded-md shadow-2xl my-10 mx-4 md:mx-auto lg:mx-0 lg:ml-40 xl:ml-56 lg:mt-36"
+          >
             <figure>
               <div className="avatar">
                 <div className="w-1/2 mx-auto mt-5 rounded-full ring ring-green-500 ring-offset-base-100 ring-offset-2">
@@ -74,7 +81,16 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="px-5 py-10">
-          <div>
+          <div
+            data-aos="fade-down"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+          >
             <h1 className="text-7xl text-primary">Hello!</h1>
 
             <p className="text font-mono my-4">
