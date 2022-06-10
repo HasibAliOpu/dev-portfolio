@@ -35,7 +35,7 @@ const images4 = [
 
 const Projects = () => {
   return (
-    <div className="my-10 text-white">
+    <div className="my-10 text-white ">
       <h1 className="text-center text-6xl lg:font-bold mb-10">Projects</h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 mb-10 px-7 lg:px-10 ">
         <div>
