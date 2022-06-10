@@ -42,7 +42,7 @@ const images5 = [
 const Projects = () => {
   return (
     <div className="my-10 text-white ">
-      <h1 className="text-center text-6xl uppercase lg:font-bold mb-10">
+      <h1 className="text-center text-6xl uppercase lg:font-bold mb-16">
         <span className="border-b-4 border-primary hover:border-white hover:text-primary pb-1">
           Proj
         </span>
@@ -56,9 +56,6 @@ const Projects = () => {
         data-aos-delay="50"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center"
         className="grid grid-cols-1 lg:grid-cols-2 mb-10 px-7 lg:px-10 "
       >
         <div>
@@ -169,9 +166,6 @@ const Projects = () => {
         data-aos-delay="50"
         data-aos-duration="1000"
         data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center"
         className="grid grid-cols-1 lg:grid-cols-2 px-7 lg:px-10 my-10  "
       >
         <div className="pb-3 lg:pb-0 lg:px-20">
@@ -545,7 +539,7 @@ const Projects = () => {
             </button>
           </div>
         </div>
-        <div className="pb-3 lg:pb-0 lg:px-20">
+        <div className="pb-3 mt-2 lg:pb-0 lg:px-20">
           <Swiper
             effect={"cube"}
             grabCursor={true}
