@@ -1,5 +1,5 @@
 import React from "react";
-import Portfolio from "../../assets/images/portfolio.jpg";
+import Portfolio from "../../assets/images/portfolio3.jpg";
 import Linkedin from "../../assets/icon/linkedin.svg";
 import Github from "../../assets/icon/github.svg";
 import Email from "../../assets/icon/mail.svg";
@@ -21,14 +21,14 @@ const AboutMe = () => {
           >
             <figure>
               <div className="avatar">
-                <div className="w-1/2 mx-auto mt-5 rounded-full ring ring-green-500 ring-offset-base-100 ring-offset-2">
-                  <img src={Portfolio} alt="profile" />
+                <div className="w-1/2 mx-auto mt-5 rounded-full ring ring-purple-600 ring-offset-base-100 ring-offset-2">
+                  <img src={Portfolio} className="scale-150" alt="profile" />
                 </div>
               </div>
             </figure>
             <div className="card-body text-center">
-              <h2 className="text-3xl font-bold font-mono uppercase">
-                Hasib Ali
+              <h2 className="text-3xl text-primary font-bold font-mono uppercase">
+                Hasib Ali Opu
               </h2>
               <p style={{ fontFamily: "monospace" }} className="uppercase">
                 junior front-end Developer

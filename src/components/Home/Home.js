@@ -6,20 +6,25 @@ const Home = () => {
   return (
     <div>
       <div className="hero min-h-screen">
-        <div
-          data-aos="zoom-in-up"
-          data-aos-offset="200"
-          data-aos-delay="50"
-          data-aos-duration="1000"
-          data-aos-easing="ease-in-out"
-          className="hero-content flex-col lg:flex-row-reverse"
-        >
+        <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={banner}
             className=" lg:max-w-lg xl:max-w-xl rounded-3xl shadow-2xl"
             alt=""
+            data-aos="zoom-in-down"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="2000"
+            data-aos-easing="ease-in-out"
           />
-          <div className="text-white">
+          <div
+            className="text-white"
+            data-aos="zoom-in-down"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="2000"
+            data-aos-easing="ease-in-out"
+          >
             <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-[#fca311]">
               Welcome!
             </h1>
