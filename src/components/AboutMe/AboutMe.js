@@ -8,7 +8,7 @@ import { SkillBar } from "react-skills";
 
 const AboutMe = () => {
   return (
-    <div className="text-white">
+    <div className="text-white ">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="bg-orange-400 h-full lg:w-8/12 ">
           <div
@@ -27,10 +27,10 @@ const AboutMe = () => {
               </div>
             </figure>
             <div className="card-body text-center">
-              <h2 className="text-3xl text-primary font-bold font-mono uppercase">
+              <h2 className="text-3xl text-primary font-lobster uppercase">
                 Hasib Ali Opu
               </h2>
-              <p style={{ fontFamily: "monospace" }} className="uppercase">
+              <p className="uppercase font-mono text-sm">
                 junior front-end Developer
               </p>
             </div>
@@ -90,17 +90,17 @@ const AboutMe = () => {
           >
             <h1 className="text-7xl text-primary">Hello!</h1>
 
-            <p className="text font-mono my-4">
-              I am a junior front-end web developer. I love to use my creativity
-              and make something new. That's why I love to work with React.js
-              and TailwindCSS. Over the last 6 month, I gather knowledge in
-              various parts of web development through the Programming Hero
-              course. My ultimate goal is to become an awesome full-stack web
-              developer who can make beautiful UIs and also can handle the
-              back-end smoothly.
+            <p className="font-kalam my-4">
+              My name is Hasib Ali Opu and I'm a junior front-end web developer.
+              I love to use my creativity and make something new. That's why I
+              love to work with React.js and TailwindCSS. Over the last 8 month,
+              I gather knowledge in various parts of web development through the
+              Programming Hero course. My ultimate goal is to become an awesome
+              full-stack web developer who can make beautiful UIs and also can
+              handle the back-end smoothly.
             </p>
           </div>
-          <div className="lg:px-8">
+          <div className="lg:px-8 font-kalam">
             <h1 className="text-center text-info font-bold text-2xl mb-3">
               <span className="border-b-2 px-4 pb-0.5 border-teal-300">
                 My Skills
@@ -128,7 +128,7 @@ const AboutMe = () => {
               <SkillBar name="Node.JS" level={75} color="#7cb518" />
             </div>
             <div className="pb-1 scale-100 hover:scale-105 ease-in duration-300">
-              <SkillBar name="Express.JS" level={70} color="#081c15" />
+              <SkillBar name="Express.JS" level={70} color="#003566" />
             </div>
             <div className="scale-100 hover:scale-105 ease-in duration-300">
               <SkillBar name="MongoDB" level={80} color="#4c956c" />

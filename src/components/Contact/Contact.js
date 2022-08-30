@@ -37,11 +37,10 @@ const Contact = () => {
       data-aos-delay="50"
       data-aos-duration="1000"
       data-aos-easing="ease-in-out"
-      style={{ fontFamily: "cursive" }}
-      className="my-10 mx-5 lg:mx-0 text-white"
+      className="my-10 mx-5 lg:mx-0 text-white  font-kalam"
     >
       <section className="w-full max-w-2xl px-6 py-4 mx-auto bg-info rounded-md shadow-md ">
-        <h2 className="text-3xl font-semibold text-center">Get in touch</h2>
+        <h2 className="text-3xl text-center">Get In Touch</h2>
         <p className="mt-3 text-center">
           HELLO!! Feel free to communicate with me for any enquiry,
           collaboration or jobs. I will be more than glad to hear from you.

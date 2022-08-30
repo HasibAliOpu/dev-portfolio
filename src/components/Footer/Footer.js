@@ -9,7 +9,8 @@ const Footer = () => {
       <footer className="footer items-center p-4 bg-black text-neutral-content">
         <div className="items-center grid-flow-col">
           <p className="text-xs font-mono">
-            Copyright © 2022 - All right reserved by Hasib Ali || Portfolio.
+            Copyright © {new Date().getFullYear()} - All right reserved by Hasib
+            Ali || Portfolio!
           </p>
         </div>
         <div className="grid-flow-col gap-4 md:place-self-center justify-self-center md:justify-self-end">
@@ -19,7 +20,7 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
             <img
-              className="scale-100 hover:scale-125 ease-in duration-300 w-7"
+              className="scale-100 hover:-translate-y-2 ease-in-out duration-500 w-7"
               src={linkedin}
               alt="linkedin"
             />
@@ -30,7 +31,7 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
             <img
-              className="scale-100 hover:scale-125 ease-in duration-300 w-7"
+              className="scale-100 hover:-translate-y-2 ease-in-out duration-500 w-7"
               src={github}
               alt="github"
             />
@@ -41,7 +42,7 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
             <img
-              className="scale-100 hover:scale-125 ease-in duration-300 w-7"
+              className="scale-100  hover:-translate-y-2 ease-in-out duration-500 w-7"
               src={facebook}
               alt="facebook"
             />

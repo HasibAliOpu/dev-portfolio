@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="sticky top-0 z-50 font-mono font-bold text-orange-500">
+    <div className="sticky top-0 z-50 font-kalam text-orange-500">
       <div className="navbar  bg-black">
         <div className="navbar-start">
           <div className="dropdown">
@@ -45,12 +45,9 @@ const Navbar = () => {
             </ul>
           </div>
           <Link to="/" className="btn btn-ghost normal-case lg:text-xl">
-            <p className="uppercase text-info">
-              Hasib Ali /{" "}
-              <span
-                style={{ fontFamily: "'Roboto Mono', monospace" }}
-                className="text-green-200 text-xs lg:text-sm lowercase font-normal"
-              >
+            <p className="uppercase text-info font-mono text-2xl tracking-wider">
+              Hasib Ali/
+              <span className="text-green-200 text-xs lg:text-sm normal-case font-normal">
                 Front-end Developer
               </span>
             </p>

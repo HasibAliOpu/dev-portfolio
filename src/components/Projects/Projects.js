@@ -41,7 +41,7 @@ const images5 = [
 
 const Projects = () => {
   return (
-    <div className="my-10 text-white ">
+    <div className="my-10 text-white font-kalam">
       <h1 className="text-center text-6xl uppercase lg:font-bold mb-16">
         <span className="border-b-4 border-primary hover:border-white hover:text-primary pb-1">
           Proj

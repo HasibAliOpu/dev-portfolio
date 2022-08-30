@@ -1,4 +1,5 @@
 import React from "react";
+import "./Home.css";
 import banner from "../../assets/banner/LinkedIn-Banner.png";
 import resume from "../../assets/resume/resume.pdf";
 
@@ -25,7 +26,7 @@ const Home = () => {
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"
           >
-            <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-[#fca311]">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-lobster  text-[#fca311] welcome">
               Welcome!
             </h1>
             <p className="py-6 md:text-2xl lg:text-4xl xl:text-5xl text-[#edf2f4] font-bold">
